@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body{
+	background: url(slike/bck.png);
+	background-repeat: no-repeat;
+	width:100%;
+	height: 100%;
+}
+
+.omotac{
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-image: url(slike/bck.png);
+}
+
+h1{
+	color: red;
+}
+
+h3{
+	color: red;
+}
+#nazad{
+	margin:30px;
+	width: 50px;
+	height: 50px;	
+}
+
+#nazad img{
+	width: 50px;
+	height: 50px;	
+	background-size: cover;
+}
+
+.bojiSlovaUPlavo{
+	color: blue;
+	font-family: "Tahoma";
+}
+
+#formaRegistracija{
+	width: 240px;
+	height: 240px;
+	border: 1px solid black;
+	padding:7px;
+	background-color: red;
+	text-align: center;
+}
+
+#formaRegistracija input{
+	width: 80%;
+	heigh: 16%;
+	border-radius: 10px;
+}
+
+#formaRegistracija input[type = "submit"]{
+	color: red;
+	width: 40%;
+	height: 16%;
+	border-radius: 10px;
+	background-color: lightblue;
+	font-weight: bold;
+}
+
+#formaRegistracija input[type = "submit"]:hover{
+	background-color:white;	
+	position: relative;
+	top:2px;
+	right:2px;
+}

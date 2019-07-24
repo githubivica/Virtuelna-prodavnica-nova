@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Registracija</title>
+	<link 
+		rel = "stylesheet"
+		type= "text/css"
+		href = "css/style.css"
+	>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	</head>
+	
+	<body background="slike/bck.png" style="background-repeat: no-repeat; width: 100%; background-size: cover;">
+		<h1 class= "bojiSlovaUPlavo" style="text-align: center;">Ovo je strana za registraciju</h1>
+
+		<a href  ="index.html" class="btn btn-primary">Back to index page</a><br><br>
+		
+		<form id=formaRegistracija action="PutanjaServletaZaRegistraciju" method="get">
+			<input type="text" class="form-control" placeholder="user name" name="userName" style="width:210px;"><br><br>
+			<input type="password" class="form-control" placeholder="password" name="password" style="width:210px;"><br><br>
+			<input type="password" class="form-control" placeholder="repeat password" name="repeatPassword" style="width:210px;"><br><br>
+			<button type="submit" class="btn btn-primary" >Sign Up!</button>
+		</form>	
+
+	</body>
+</html>
